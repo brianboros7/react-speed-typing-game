@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.speed-typing-section {
+    padding-top: 10px; 
+    font-family: 'Press Start 2p', cursive; 
+    font-weight: 400; 
+}
+
+.game-container h2 {
+    font-weight: 30; 
+}
+.game-container h3 {
+    font-weight: 200; 
+}
+
+.game-container h1 {
+    font-weight: 10; 
+}
+
+textarea {
+    font-family: 'Press Start 2P', cursive;
+    width: 50%;
+    margin: 0 auto;
+    outline: none;
+    height: 300px;
+    max-height: 400px; 
+    padding: 10px;
+    background: white; 
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-container {
+    padding: 10px; 
+    background: rgb(253, 246, 247);
+}
+
+.Dashboard {
+    padding: 20px; 
+    background: white; 
+    
+}
+.Dashboard-container {
+    padding: 20px; 
+    opacity: 0.8; 
+    background: #ffffff; 
+}
+
