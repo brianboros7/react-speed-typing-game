@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'; 
 import StartGameBtn from '../buttons/StartGameBtn'
 
-function TypingGame(textBox, timeRemaining, startWordCount) {
+function TypingGame( textBoxRef, timeRemaining, startWordCount ) {
 
     return (
         <div className="speed-typing-section container mx-auto p-10"> 
@@ -10,7 +10,7 @@ function TypingGame(textBox, timeRemaining, startWordCount) {
                 <h2 className="p-3 text-pink-500 text-bold">Good morning, how fast can you type today?</h2>
 
                 <div className="text-box">
-                    {textBox}
+                    {textBoxRef}
                 </div>
 
                 <h3 className="text-pink-500 text-bold my-2 p-2">

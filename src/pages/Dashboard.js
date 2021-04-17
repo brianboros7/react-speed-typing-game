@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
-
 import TypingGame from '../components/typing-game/TypingGame'
+
 function Dashboard() {
 
     return(
